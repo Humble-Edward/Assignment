@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 60px;
+}
+
+h2 {
+  color: red;
+}
+
+
+button {
+  cursor: pointer;
+
+}
+
+header {
+  background-color: black;
+  padding: 0px 20px;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 400px;
+}
+
+header nav a {
+  color: #ee1313;
+  font-size: 18px;
+  text-decoration: none;
+
+}
